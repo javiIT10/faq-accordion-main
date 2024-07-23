@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/faq-accordion-using-tailwind-EzF4VB9kaI](https://your-solution-url.com)
+- Live Site URL: [https://javiit10.github.io/faq-accordion-main/](https://javiit10.github.io/faq-accordion-main/)
 
 ## My process
 
