@@ -555,3 +555,206 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.top-0{
+  top: 0px;
+}
+
+.z-10{
+  z-index: 10;
+}
+
+.mt-\[30px\]{
+  margin-top: 30px;
+}
+
+.mt-\[20px\]{
+  margin-top: 20px;
+}
+
+.mt-\[15px\]{
+  margin-top: 15px;
+}
+
+.mt-4{
+  margin-top: 1rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.grid{
+  display: grid;
+}
+
+.hidden{
+  display: none;
+}
+
+.h-dvh{
+  height: 100dvh;
+}
+
+.h-0{
+  height: 0px;
+}
+
+.w-\[22px\]{
+  width: 22px;
+}
+
+.w-\[326px\]{
+  width: 326px;
+}
+
+.w-dvw{
+  width: 100dvw;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.gap-\[25px\]{
+  gap: 25px;
+}
+
+.gap-\[30px\]{
+  gap: 30px;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.rounded-lg{
+  border-radius: 0.5rem;
+}
+
+.border-b{
+  border-bottom-width: 1px;
+}
+
+.border-b-\[\#F7F6FB\]{
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(247 246 251 / var(--tw-border-opacity));
+}
+
+.bg-light-pink{
+  --tw-bg-opacity: 1;
+  background-color: hsl(275 100% 97% / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+}
+
+.px-\[23px\]{
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-\[29px\]{
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pt-6{
+  padding-top: 1.5rem;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
+}
+
+.pt-4{
+  padding-top: 1rem;
+}
+
+.font-work-sans{
+  font-family: Work Sans, sans-serif;
+}
+
+.text-\[15px\]{
+  font-size: 15px;
+}
+
+.text-\[30px\]{
+  font-size: 30px;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.leading-5{
+  line-height: 1.25rem;
+}
+
+.text-dark-purple{
+  --tw-text-opacity: 1;
+  color: hsl(292 42% 14% / var(--tw-text-opacity));
+}
+
+.text-grayish-purple{
+  --tw-text-opacity: 1;
+  color: hsl(292 16% 49% / var(--tw-text-opacity));
+}
+
+.transition-all{
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.hover\:text-pink:hover{
+  --tw-text-opacity: 1;
+  color: rgb(177 43 238 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px){
+  .lg\:block{
+    display: block;
+  }
+
+  .lg\:hidden{
+    display: none;
+  }
+}
