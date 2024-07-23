@@ -24,34 +24,41 @@
     <img
       src="assets/images/background-pattern-mobile.svg"
       alt="background-pattern-mobile"
-      class="absolute top-0 lg:hidden"
+      class="absolute top-0 w-[100%] sm:hidden"
     />
     <img
-      src="assets/images/background-pattern-mobile.svg"
-      alt="background-pattern-mobile"
-      class="absolute top-0 hidden lg:block"
+      src="assets/images/background-pattern-desktop.svg"
+      alt="background-pattern-desktop"
+      class="absolute top-0 w-[100%] hidden sm:block"
     />
 
     <div
-      class="bg-white w-[326px] px-[23px] py-[29px] rounded-lg relative z-10"
+      class="bg-white max-w-[326px] px-[23px] sm:px-[39px] py-[29px] sm:py-[55px] rounded-lg relative z-10 sm:max-w-[600px] transition-all"
     >
       <header class="flex gap-[25px]">
         <img
           src="assets/images/icon-star.svg"
           alt="icon-star"
-          class="w-[22px]"
+          class="w-[22px] md:w-[37px]"
         />
-        <h1 class="text-dark-purple font-bold text-[30px]">FAQs</h1>
+        <h1 class="text-dark-purple font-bold text-[30px] md:text-[50px]">
+          FAQs
+        </h1>
       </header>
-      <ul class="flex flex-col" id="faqs-list">
+      <ul class="flex flex-col">
         <li class="border-b border-b-[#F7F6FB] py-4">
           <a
             href="#"
-            class="flex justify-between items-center gap-[30px] font-bold text-[15px] text-dark-purple leading-5 hover:text-pink transition-all"
+            class="flex justify-between items-center gap-[30px] font-bold text-[15px] md:text-[16px] text-dark-purple leading-5 hover:text-pink transition-all"
             >What is Frontend Mentor, and how will it help me?
-            <img src="assets/images/icon-plus.svg" alt="icon-plus"
+            <img
+              src="assets/images/icon-plus.svg"
+              alt="icon-plus"
+              class="expandBtn"
           /></a>
-          <p class="text-[15px] text-grayish-purple h-0 overflow-hidden">
+          <p
+            class="text-[15px] md:text-[16px] text-grayish-purple h-0 overflow-hidden transition-all"
+          >
             Frontend Mentor offers realistic coding challenges to help
             developers improve their frontend coding skills with projects in
             HTML, CSS, and JavaScript. It's suitable for all levels and ideal
@@ -61,11 +68,16 @@
         <li class="border-b border-b-[#F7F6FB] py-4">
           <a
             href="#"
-            class="flex justify-between items-center gap-[30px] font-bold text-[15px] text-dark-purple leading-5 hover:text-pink transition-all"
+            class="flex justify-between items-center gap-[30px] font-bold text-[15px] md:text-[16px] text-dark-purple leading-5 hover:text-pink transition-all"
             >Is Frontend Mentor free?
-            <img src="assets/images/icon-plus.svg" alt="icon-plus"
+            <img
+              src="assets/images/icon-plus.svg"
+              alt="icon-plus"
+              class="expandBtn"
           /></a>
-          <p class="text-[15px] text-grayish-purple h-0 overflow-hidden">
+          <p
+            class="text-[15px] md:text-[16px] text-grayish-purple h-0 overflow-hidden transition-all"
+          >
             Yes, Frontend Mentor offers both free and premium coding challenges,
             with the free option providing access to a range of projects
             suitable for all skill levels.
@@ -74,11 +86,16 @@
         <li class="border-b border-b-[#F7F6FB] py-4">
           <a
             href="#"
-            class="flex justify-between items-center gap-[30px] font-bold text-[15px] text-dark-purple leading-5 hover:text-pink transition-all"
+            class="flex justify-between items-center gap-[30px] font-bold text-[15px] md:text-[16px] text-dark-purple leading-5 hover:text-pink transition-all"
             >Can I use Frontend Mentor projects in my portfolio?
-            <img src="assets/images/icon-plus.svg" alt="icon-plus"
+            <img
+              src="assets/images/icon-plus.svg"
+              alt="icon-plus"
+              class="expandBtn"
           /></a>
-          <p class="text-[15px] text-grayish-purple h-0 overflow-hidden">
+          <p
+            class="text-[15px] md:text-[16px] text-grayish-purple h-0 overflow-hidden transition-all"
+          >
             Yes, you can use projects completed on Frontend Mentor in your
             portfolio. It's an excellent way to showcase your skills to
             potential employers!
@@ -87,11 +104,16 @@
         <li class="pt-4">
           <a
             href="#"
-            class="flex justify-between items-center gap-[30px] font-bold text-[15px] text-dark-purple leading-5 hover:text-pink transition-all"
+            class="flex justify-between items-center gap-[30px] font-bold text-[15px] md:text-[16px] text-dark-purple leading-5 hover:text-pink transition-all"
             >How can I get help if I'm stuck on a challenge?
-            <img src="assets/images/icon-plus.svg" alt="icon-plus"
+            <img
+              src="assets/images/icon-plus.svg"
+              alt="icon-plus"
+              class="expandBtn"
           /></a>
-          <p class="text-[15px] text-grayish-purple h-0 overflow-hidden">
+          <p
+            class="text-[15px] md:text-[16px] text-grayish-purple h-0 overflow-hidden transition-all"
+          >
             The best place to get help is inside Frontend Mentor's Discord
             community. There's a help channel where you can ask questions and
             seek support from other community members.
@@ -99,5 +121,7 @@
         </li>
       </ul>
     </div>
+
+    <script src="assets/js/app.js"></script>
   </body>
 </html>
